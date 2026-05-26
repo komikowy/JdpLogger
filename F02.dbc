@@ -1,0 +1,341 @@
+BO_ 143 Wheel_Torque_1: 8 XXX
+ SG_ Torque : 20|12@1+ (1,-2000) [0|4095] "" XXX
+ SG_ Pos_Torque : 36|12@1+ (2,0) [0|4095] "" XXX
+ SG_ Selected_Gear : 55|8@0+ (1,0) [0|255] "" XXX
+
+BO_ 149 Unknown2: 8 XXX
+
+BO_ 150 Highbeam_assist: 8 BDC
+ SG_ NEW_SIGNAL_1 : 0|8@1+ (1,0) [0|255] "" XXX
+ SG_ idfk_man : 23|16@0+ (1,-20000) [0|65535] "" XXX
+
+BO_ 160 Request_Torque_Crankshaft_gearbox_2: 8 XXX
+ SG_ NEW_SIGNAL_1 : 16|12@1+ (0.001,-2.013) [0|4095] "" XXX
+ SG_ RPM : 48|16@1+ (1,-2000) [0|65535] "" XXX
+
+BO_ 165 Engine_Values: 8 XXX
+ SG_ Engine_Torque_1 : 16|12@1+ (0.6,-1200) [0|4095] "" XXX
+ SG_ Engine_Torque_2 : 28|12@1+ (0.6,-1200) [0|4095] "" XXX
+ SG_ Engine_Speed : 40|16@1+ (0.25,0) [0|65535] "" XXX
+
+BO_ 166 Engine_Values_2: 8 XXX
+ SG_ NEW_SIGNAL_2 : 12|12@1+ (1,-1900) [0|4095] "" XXX
+ SG_ Torque_Limit : 24|12@1- (1,700) [0|4095] "" XXX
+ SG_ Force_2 : 36|12@1- (1,2048) [0|4095] "" XXX
+ SG_ Force : 48|12@1- (1,2048) [0|4095] "" XXX
+
+BO_ 167 Torque_Wish: 8 XXX
+ SG_ Driver_Torque_Wish : 23|16@0+ (0.003,-92.064) [0|65535] "" XXX
+ SG_ Torque_Output : 32|16@1+ (0.005,-150) [0|65535] "" XXX
+
+BO_ 176 EGS_Torque_Request: 8 XXX
+ SG_ Upshift : 12|1@0+ (-1,1) [0|1] "" XXX
+ SG_ Rev_Match_Torque : 13|10@1- (1,1) [0|1023] "" XXX
+ SG_ Retard : 25|10@1- (1,1) [0|1023] "" XXX
+ SG_ auto_Downshift : 35|1@0+ (-1,1) [0|1] "" XXX
+ SG_ Torque_Converter_Slip : 37|7@1+ (1,0) [0|127] "" XXX
+ SG_ Downshift_on_throttle : 48|1@0+ (1,0) [0|1] "" XXX
+ SG_ Is_Shifting : 49|1@0+ (1,0) [0|1] "" XXX
+ SG_ Is_Downshift : 50|1@0+ (1,0) [0|1] "" XXX
+ SG_ IGN_cut : 51|1@0+ (1,0) [0|1] "" XXX
+
+BO_ 215 Alive_Counter_Safety: 2 ACSM
+
+BO_ 217 Throttle_Pedal_Position: 8 XXX
+ SG_ Pedal_Pos_1 : 16|16@1+ (0.01,-40.96) [0|65535] "" XXX
+ SG_ Pedal_Pos_2 : 32|12@1+ (0.01,0) [0|4095] "" XXX
+ SG_ Pedal_Accel : 44|12@1+ (1,-2047) [0|4095] "" XXX
+ SG_ Is_Throttle_Pressed : 56|1@0+ (1,0) [0|1] "" XXX
+
+BO_ 220 Wheel_Torque_4: 8 XXX
+ SG_ Gear_Seected : 16|4@1+ (1,0) [0|15] "" XXX
+ SG_ Wheel_speed : 24|16@1+ (1,0) [0|65535] "" XXX
+ SG_ Is_Park : 41|1@0+ (1,0) [0|1] "" XXX
+ SG_ Trans_disconnect : 43|2@0+ (1,0) [0|1] "" XXX
+
+BO_ 228 Ride_height: 8 XXX
+
+BO_ 239 Braking_torque: 8 XXX
+ SG_ Braking1 : 16|16@1+ (1,0) [0|65535] "" XXX
+ SG_ Braking2 : 40|16@1+ (1,0) [0|65535] "" XXX
+
+BO_ 243 Drivetrain_Speed: 8 XXX
+ SG_ InputShaft_Speed : 12|12@1+ (1,0) [0|4095] "" XXX
+
+BO_ 248 Basic_Data: 8 XXX
+ SG_ RPM : 15|8@0+ (200,0) [0|255] "" XXX
+ SG_ Is_Vehicle_Moving : 19|4@0+ (1,0) [0|15] "" XXX
+
+BO_ 303 Terminal_status: 8 XXX
+ SG_ NEW_SIGNAL_5 : 12|4@1+ (1,0) [0|15] "" XXX
+ SG_ NEW_SIGNAL_6 : 19|4@0+ (1,0) [0|15] "" XXX
+ SG_ NEW_SIGNAL_4 : 20|4@1+ (1,0) [0|15] "" XXX
+ SG_ NEW_SIGNAL_3 : 28|4@1+ (1,0) [0|15] "" XXX
+ SG_ NEW_SIGNAL_2 : 32|4@1+ (1,0) [0|15] "" XXX
+ SG_ In_Park : 42|1@0+ (1,0) [0|1] "" XXX
+ SG_ Startstop_button : 44|1@0+ (1,0) [0|1] "" XXX
+ SG_ Start_button_pressed : 47|1@0+ (1,0) [0|1] "" XXX
+ SG_ Brake_Lights : 48|4@1+ (1,0) [0|15] "" XXX
+ SG_ NEW_SIGNAL_1 : 52|4@1+ (1,0) [0|15] "" XXX
+ SG_ NEW_SIGNAL_8 : 56|1@0+ (1,0) [0|1] "" XXX
+
+BO_ 309 EKP_Crash_Disengagement: 8 XXX
+
+BO_ 311 LPFP: 8 XXX
+ SG_ Fuel_Delivery : 8|8@1+ (0.4,0) [0|255] "" XXX
+
+BO_ 315 Fuel_Enrichment_Guess: 8 XXX
+
+BO_ 316 Speed_Correction: 8 XXX
+
+BO_ 325 Wheel_Torque_3: 8 XXX
+ SG_ Torque : 20|12@1+ (2,-1910) [0|4095] "" XXX
+ SG_ Pos_Torque : 36|12@1+ (2,-3820) [0|4095] "" XXX
+ SG_ NEW_SIGNAL_1 : 48|16@1+ (-1,31995) [0|65535] "" XXX
+
+BO_ 355 Gyro: 8 XXX
+ SG_ Pitch : 16|16@1+ (-0.1,947) [0|65535] "" XXX
+ SG_ Roll : 32|16@1+ (0.1,-537) [0|65535] "" XXX
+
+BO_ 371 DSC_status: 8 XXX
+ SG_ DSC_Enabled_2 : 27|4@0+ (1,0) [0|15] "" XXX
+ SG_ NEW_SIGNAL_2 : 28|4@1+ (1,0) [0|15] "" XXX
+ SG_ DSC_Enabled : 51|4@0+ (1,0) [0|15] "" XXX
+ SG_ NEW_SIGNAL_1 : 59|4@0+ (1,0) [0|15] "" XXX
+ SG_ Shift_safety_guess : 63|4@0+ (1,0) [0|15] "" XXX
+
+BO_ 397 Veh_Dynamics_Estimated: 8 XXX
+
+BO_ 398 Nominal_current_servotronic_ECO: 8 XXX
+ SG_ NEW_SIGNAL_1 : 7|8@0+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_3 : 15|8@0+ (1,0) [0|255] "" XXX
+
+BO_ 399 Steering_Angle_Actual: 5 XXX
+ SG_ NEW_SIGNAL_1 : 0|16@1+ (0.045,-1475) [0|65535] "" XXX
+
+BO_ 407 Shifter_Status: 8 XXX
+ SG_ NEW_SIGNAL_1 : 4|3@1+ (1,0) [0|7] "" XXX
+ SG_ Intended_Shift : 12|3@1+ (1,0) [0|7] "" XXX
+ SG_ Stick_Position : 20|3@1+ (1,0) [0|7] "" XXX
+ SG_ Park_Pressed : 24|6@1+ (0.05,0) [0|63] "" XXX
+
+BO_ 408 NEW_MSG_198: 8 XXX
+
+BO_ 409 Accelerometer_Longitudinal: 8 XXX
+ SG_ Longitudinal_accel : 16|16@1+ (0.0002,-6.5) [0|255] "" XXX
+
+BO_ 410 Accelerometer_Lateral: 8 XXX
+ SG_ Lateral_accel : 16|16@1+ (0.0002,-6.47) [0|65535] "" XXX
+
+BO_ 411 Crash_Control: 8 XXX
+
+BO_ 415 Yaw_Rate: 8 XXX
+ SG_ G_Sensing : 16|16@1+ (1,0) [0|65535] "" XXX
+
+BO_ 417 Speed: 8 XXX
+ SG_ NEW_SIGNAL_2 : 12|4@1+ (1,0) [0|15] "" XXX
+ SG_ Vehicle_speed : 16|16@1+ (0.01,0) [0|255] "" XXX
+
+BO_ 430 status_of_exterior_light_operation: 2 BDC
+
+BO_ 431 Transmission_Data: 8 XXX
+ SG_ Mechatronics_POS : 12|8@1+ (1,0) [0|255] "" XXX
+ SG_ Input_Speed : 24|16@1+ (1,0) [0|65535] "" XXX
+ SG_ Output_speed : 40|16@1+ (1,0) [0|65535] "" XXX
+ SG_ NEW_SIGNAL_1 : 56|8@1+ (1,0) [0|255] "" XXX
+
+BO_ 435 Kombi_Status_Display: 8 KOMBI
+
+BO_ 442 NEW_MSG_1BA: 8 XXX
+
+BO_ 494 Steering_Column: 8 XXX
+
+BO_ 502 Indicators: 8 XXX
+ SG_ Turn_Signal_Remain : 0|2@1+ (1,0) [0|3] "" XXX
+ SG_ Turn_Signal : 4|2@1+ (1,0) [0|3] "" XXX
+ SG_ Stalk_position : 9|2@0+ (1,0) [0|3] "" XXX
+
+BO_ 508 Active_Steering: 8 XXX
+
+BO_ 514 Dimming: 8 XXX
+
+BO_ 519 NEW_MSG_207: 2 XXX
+ SG_ NEW_SIGNAL_1 : 12|4@1+ (1,0) [0|15] "" XXX
+
+BO_ 531 Status_Heads_Up_Display_2: 4 HUD
+
+BO_ 538 Lamp_Status: 8 XXX
+
+BO_ 549 NEW_MSG_225: 4 XXX
+
+BO_ 575 NEW_MSG_23F: 4 XXX
+
+BO_ 582 Air_Condition_Status: 5 IHKA
+ SG_ NEW_SIGNAL_2 : 11|2@0+ (1,0) [0|3] "" XXX
+ SG_ NEW_SIGNAL_1 : 23|8@0+ (1,0) [0|255] "" XXX
+
+BO_ 595 Torque_wish: 8 XXX
+ SG_ Driver_torque_wish : 23|8@0+ (6,0) [0|255] "" XXX
+
+BO_ 596 Wheel_Speed: 8 XXX
+ SG_ NEW_SIGNAL_1 : 0|16@1+ (1,0) [0|65535] "" XXX
+ SG_ NEW_SIGNAL_2 : 16|16@1+ (1,0) [0|65535] "" XXX
+ SG_ NEW_SIGNAL_3 : 32|16@1+ (1,0) [0|65535] "" XXX
+ SG_ NEW_SIGNAL_4 : 48|16@1+ (1,0) [0|65535] "" XXX
+
+BO_ 641 NEW_MSG_281: 2 XXX
+ SG_ NEW_SIGNAL_1 : 7|8@0+ (1,0) [0|255] "" XXX
+
+BO_ 647 Traffic_Sign: 8 XXX
+
+BO_ 649 Display_Longitudinal_Dynamics_Management_2: 8 ICM
+
+BO_ 652 NEW_MSG_28C: 4 XXX
+ SG_ NEW_SIGNAL_1 : 7|8@0+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_2 : 21|1@0+ (1,0) [0|1] "" XXX
+
+BO_ 663 Occupancy: 8 XXX
+ SG_ Driver_Seatbelt : 16|1@0+ (1,0) [0|1] "" XXX
+
+BO_ 677 Environment_Brightness: 8 XXX
+ SG_ NEW_SIGNAL_1 : 15|8@0+ (1,0) [0|255] "" XXX
+
+BO_ 679 Driving_Dynamics_Check_Control: 8 XXX
+
+BO_ 699 Vehicle_Distnce: 8 XXX
+
+BO_ 708 Fuel_Consuption: 8 XXX
+ SG_ NEW_SIGNAL_2 : 43|4@0+ (1,0) [0|15] "" XXX
+ SG_ NEW_SIGNAL_1 : 47|4@0+ (1,0) [0|15] "" XXX
+
+BO_ 709 Driving_Dynamics_Status_Display: 7 KOMBI
+ SG_ NEW_SIGNAL_1 : 16|16@1+ (1,0) [0|65535] "" XXX
+
+BO_ 714 Ambient_Temperature: 8 XXX
+ SG_ Ambient_temp : 0|16@1+ (0.001,0) [0|65535] "" XXX
+
+BO_ 736 NEW_MSG_2E0: 6 XXX
+
+BO_ 752 AC_interface: 8 XXX
+
+BO_ 764 Central_Locking_and_Lid: 8 XXX
+ SG_ Driver_Door : 8|1@0+ (1,0) [0|1] "" XXX
+
+BO_ 769 Actual_Steering_Angle: 7 ICM
+
+BO_ 770 Steering_Angle: 8 XXX
+ SG_ Steering_Angle : 16|16@1+ (1,0) [0|65535] "" XXX
+
+BO_ 779 Engine_Start_Stop: 8 XXX
+
+BO_ 788 Headight_Status: 8 XXX
+
+BO_ 807 Lane_Departure_Warning_System: 5 KAFAS
+
+BO_ 808 Uptime: 8 XXX
+ SG_ Uptime_seconds : 4|12@1+ (1,-2940) [0|4095] "" XXX
+
+BO_ 816 Kilometer_reading: 8 XXX
+
+BO_ 821 Fuel_Pump_Status: 8 XXX
+ SG_ NEW_SIGNAL_1 : 12|12@1+ (0.1,-115) [0|4095] "" XXX
+ SG_ NEW_SIGNAL_3 : 24|16@1+ (0.01,-230) [0|65535] "" XXX
+ SG_ NEW_SIGNAL_2 : 40|24@1+ (0.0001,-450) [0|16777215] "" XXX
+
+BO_ 827 Display_Longitudinal_Dynamics_Management_22: 6 DSC
+
+BO_ 839 Steering_Wheel_Vibration: 3 DSC
+
+BO_ 841 Fuel_Tank_Level: 8 XXX
+ SG_ NEW_SIGNAL_2 : 0|12@1+ (1,0) [0|4095] "" XXX
+ SG_ NEW_SIGNAL_1 : 16|12@1+ (1,0) [0|4095] "" XXX
+
+BO_ 873 Tire_Status: 8 XXX
+
+BO_ 874 Highbeam_assistance: 8 XXX
+
+BO_ 878 display_check_control_bypass: 5 DSC
+
+BO_ 879 Display_Check_Control_Bypass_DSC: 5 DSC
+
+BO_ 894 Brake_Temperature: 6 EMF
+
+BO_ 915 LCD_Brightness: 4 KOMBI
+
+BO_ 918 OBD_transmission_diag: 8 XXX
+
+BO_ 919 OBD_Diag_Engine: 8 XXX
+ SG_ Load : 15|16@0+ (1,0) [0|65535] "" XXX
+
+BO_ 922 Gearbox_Control_Status: 8 XXX
+ SG_ Temperature_guess : 8|4@1+ (1,0) [0|15] "" XXX
+ SG_ Is_Shifting : 20|1@0+ (1,0) [0|15] "" XXX
+ SG_ Selected_Gear : 27|4@0+ (1,0) [0|15] "" XXX
+ SG_ Gear_Type : 32|2@1+ (1,0) [0|3] "" XXX
+ SG_ NEW_SIGNAL_1 : 40|1@0+ (1,0) [0|1] "" XXX
+ SG_ NEW_SIGNAL_2 : 41|1@0+ (1,0) [0|1] "" XXX
+ SG_ NEW_SIGNAL_4 : 42|1@0+ (1,0) [0|1] "" XXX
+ SG_ unknown : 43|1@0+ (1,0) [0|1] "" XXX
+
+BO_ 928 Vehicle_Status: 8 XXX
+ SG_ Starting : 56|1@0+ (1,0) [0|1] "" XXX
+
+BO_ 935 Driving_Dynamics_Switch: 8 XXX
+
+BO_ 972 NEW_MSG_3CC: 7 XXX
+
+BO_ 1017 Drivetrain_Data_2: 8 XXX
+ SG_ Temperature_of_oil : 28|12@1+ (0.1,0) [0|4095] "" XXX
+ SG_ NEW_SIGNAL_1 : 40|4@1+ (1,0) [0|15] "" XXX
+ SG_ Current_Gear : 51|4@0+ (1,0) [0|15] "" XXX
+ SG_ Temp_target_guess : 52|12@1+ (0.1,0) [0|4095] "" XXX
+
+BO_ 1019 Warmup_Powertrain: 8 XXX
+
+BO_ 1021 Shifter_data: 8 XXX
+ SG_ Trans_in_fwd_gear : 15|4@0+ (1,0) [0|15] "" XXX
+ SG_ Shifter_Sport : 19|4@0+ (1,0) [0|15] "" XXX
+ SG_ Selected_Mode : 23|4@0+ (1,0) [0|15] "" XXX
+ SG_ NEW_SIGNAL_1 : 28|1@0+ (1,0) [0|1] "" XXX
+ SG_ NEW_SIGNAL_2 : 29|1@0+ (1,0) [0|1] "" XXX
+ SG_ NEW_SIGNAL_3 : 30|1@0+ (1,0) [0|1] "" XXX
+
+BO_ 1296 ZGW_Network_Management: 8 XXX
+
+BO_ 1298 Network_Management: 8 XXX
+
+BO_ 1304 Lights_guess: 8 XXX
+ SG_ NEW_SIGNAL_1 : 32|4@1+ (1,0) [0|15] "" XXX
+ SG_ NEW_SIGNAL_2 : 36|4@1+ (1,0) [0|15] "" XXX
+
+BO_ 1374 GWS_heartbeat: 8 XXX
+
+BO_ 1376 Kombi_Network_Management: 8 XXX
+
+BO_ 1432 Launch_Control: 8 XXX
+
+BO_ 1504 OBD_stats: 8 KOMBI
+
+VAL_ 176 Upshift 0 "Upshifting" 1 "In Gear";
+VAL_ 217 Is_Throttle_Pressed 0 "Off Throttle" 1 "On Throttle";
+VAL_ 220 Gear_Seected 4 "Forward" 2 "P/N" 5 "Reverse";
+VAL_ 248 Is_Vehicle_Moving 0 "No" 1 "Yes";
+VAL_ 303 Brake_Lights 0 "No" 3 "Yes";
+VAL_ 371 DSC_Enabled_2 0 "DSC ON" 1 "DSC FULLY OFF";
+VAL_ 371 DSC_Enabled 0 "DSC ON" 2 "DSC FULLY OFF";
+VAL_ 407 Intended_Shift 0 "Rest" 1 "Reverse" 2 "Neutral" 3 "Drive" 6 "Sport" 5 "Upshift" 4 "Downshift";
+VAL_ 407 Stick_Position 0 "Rest" 1 "Push 1" 2 "Push 2" 3 "Pull 1" 4 "Pull 2" 7 "Sport/Left" 6 "Upshift" 5 "Downshift";
+VAL_ 407 Park_Pressed 0 "Not Pressed" 1 "Pressed";
+VAL_ 502 Turn_Signal_Remain 0 "No - Off" 1 "Yes - On";
+VAL_ 502 Turn_Signal 0 "Off" 1 "Left" 2 "Right";
+VAL_ 502 Stalk_position 0 "Rest" 1 "Pos 1" 2 "Pos 2";
+VAL_ 663 Driver_Seatbelt 0 "Unbuckled" 1 "Buckled";
+VAL_ 764 Driver_Door 0 "Closed" 1 "Open";
+VAL_ 922 Is_Shifting 0 "No" 1 "Yes";
+VAL_ 922 Selected_Gear 3 "P" 1 "N" 2 "R" 5 "1" 6 "2" 7 "3" 8 "4" 9 "5" 10 "6" 11 "7" 12 "8";
+VAL_ 922 Gear_Type 2 "Park" 1 "Neutral" 0 "FWD/REV";
+VAL_ 928 Starting 0 "No" 1 "Yes";
+VAL_ 1017 Current_Gear 3 "P" 2 "R" 1 "N" 5 "1" 6 "2" 7 "3" 8 "4" 9 "5" 10 "6" 11 "7" 12 "8";
+VAL_ 1021 Trans_in_fwd_gear 0 "P/R/N" 1 "1" 2 "2" 3 "3" 4 "4" 5 "5" 6 "6" 7 "7" 8 "8";
+VAL_ 1021 Shifter_Sport 0 "Normal" 1 "Sport" 2 "Manual";
+VAL_ 1021 Selected_Mode 8 "Drive" 6 "Neutral" 4 "Reverse" 2 "Park";

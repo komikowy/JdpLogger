@@ -1,0 +1,132 @@
+
+
+ ---------- Connect Started ------------------------------ 
+
+
+Connecting...
+Connection OK 
+Detected TC1797 processor.
+
+REG SCU_CHIPID: 00009101
+REG PFlash0 FSR: 00A50000
+REG PFlash0 FCON: 00010505
+REG PFlash0 PROCON0: 0000DFFF
+REG PFlash0 PROCON1: 00000000
+REG PFlash0 PROCON2: 00000020
+REG PFlash1 FSR: 00250000
+REG PFlash1 FCON: 00010505
+REG PFlash1 PROCON0: 0000DFFF
+REG PFlash1 PROCON1: 00000000
+REG PFlash1 PROCON2: 00000000
+Unique Chip ID: 4180850708C0A5087408001011000000
+
+
+Internal Flash
+Memory configuration
+Sector	 Address	 Size		 Type
+01	 0xA0000000	 0x00004000	 RW
+02	 0xA0004000	 0x00004000	 RW
+03	 0xA0008000	 0x00004000	 RW
+04	 0xA000C000	 0x00004000	 RW
+05	 0xA0010000	 0x00004000	 RW
+06	 0xA0014000	 0x00004000	 OTP
+07	 0xA0018000	 0x00004000	 RW
+08	 0xA001C000	 0x00004000	 RW
+09	 0xA0020000	 0x00020000	 RW
+10	 0xA0040000	 0x00040000	 RW
+11	 0xA0080000	 0x00040000	 RW
+12	 0xA00C0000	 0x00040000	 RW
+13	 0xA0100000	 0x00040000	 RW
+14	 0xA0140000	 0x00040000	 RW
+15	 0xA0180000	 0x00040000	 RW
+16	 0xA01C0000	 0x00040000	 RW
+17	 0xA0200000	 0x00004000	 RW
+18	 0xA0204000	 0x00004000	 RW
+19	 0xA0208000	 0x00004000	 RW
+20	 0xA020C000	 0x00004000	 RW
+21	 0xA0210000	 0x00004000	 RW
+22	 0xA0214000	 0x00004000	 RW
+23	 0xA0218000	 0x00004000	 RW
+24	 0xA021C000	 0x00004000	 RW
+25	 0xA0220000	 0x00020000	 RW
+26	 0xA0240000	 0x00040000	 RW
+27	 0xA0280000	 0x00040000	 RW
+28	 0xA02C0000	 0x00040000	 RW
+29	 0xA0300000	 0x00040000	 RW
+30	 0xA0340000	 0x00040000	 RW
+31	 0xA0380000	 0x00040000	 RW
+32	 0xA03C0000	 0x00040000	 RW
+
+
+Internal EEPROM
+Memory configuration
+Sector	 Address	 Size		 Type
+01	 0xAFE00000	 0x00008000	 RW
+02	 0xAFE10000	 0x00008000	 RW
+
+
+Unique Chip ID: 4180850708C0A5087408001011000000
+Checking password...
+FLASH unprotected
+Password OK
+
+ ---------- Connect Finished ( Time: 00:00:11 ) ---------- 
+
+
+
+ ---------- Read Full Backup Started ------------------------------ 
+
+
+Reading...
+
+Reading Internal Flash...
+Reading sector 1 / 32, address: 0xA0000000, size: 16 KB
+Reading sector 2 / 32, address: 0xA0004000, size: 16 KB
+Reading sector 3 / 32, address: 0xA0008000, size: 16 KB
+Reading sector 4 / 32, address: 0xA000C000, size: 16 KB
+Reading sector 5 / 32, address: 0xA0010000, size: 16 KB
+Reading sector 6 / 32, address: 0xA0014000, size: 16 KB
+Reading sector 7 / 32, address: 0xA0018000, size: 16 KB
+Reading sector 8 / 32, address: 0xA001C000, size: 16 KB
+Reading sector 9 / 32, address: 0xA0020000, size: 128 KB
+Reading sector 10 / 32, address: 0xA0040000, size: 256 KB
+Reading sector 11 / 32, address: 0xA0080000, size: 256 KB
+Reading sector 12 / 32, address: 0xA00C0000, size: 256 KB
+Reading sector 13 / 32, address: 0xA0100000, size: 256 KB
+Reading sector 14 / 32, address: 0xA0140000, size: 256 KB
+Reading sector 15 / 32, address: 0xA0180000, size: 256 KB
+Reading sector 16 / 32, address: 0xA01C0000, size: 256 KB
+Reading sector 17 / 32, address: 0xA0200000, size: 16 KB
+Reading sector 18 / 32, address: 0xA0204000, size: 16 KB
+Reading sector 19 / 32, address: 0xA0208000, size: 16 KB
+Reading sector 20 / 32, address: 0xA020C000, size: 16 KB
+Reading sector 21 / 32, address: 0xA0210000, size: 16 KB
+Reading sector 22 / 32, address: 0xA0214000, size: 16 KB
+Reading sector 23 / 32, address: 0xA0218000, size: 16 KB
+Reading sector 24 / 32, address: 0xA021C000, size: 16 KB
+Reading sector 25 / 32, address: 0xA0220000, size: 128 KB
+Reading sector 26 / 32, address: 0xA0240000, size: 256 KB
+Reading sector 27 / 32, address: 0xA0280000, size: 256 KB
+Reading sector 28 / 32, address: 0xA02C0000, size: 256 KB
+Reading sector 29 / 32, address: 0xA0300000, size: 256 KB
+Reading sector 30 / 32, address: 0xA0340000, size: 256 KB
+Reading sector 31 / 32, address: 0xA0380000, size: 256 KB
+Reading sector 32 / 32, address: 0xA03C0000, size: 256 KB
+Size read: 4 MB
+CRC32 of readout: DAE79773
+
+Verifying checksum, please wait...
+Checksum OK
+
+Reading Internal EEPROM...
+Reading sector 1 / 2, address: 0xAFE00000, size: 32 KB
+Reading sector 2 / 2, address: 0xAFE10000, size: 32 KB
+Size read: 96 KB
+CRC32 of readout: 0F83268D
+
+Verifying checksum, please wait...
+Checksum OK
+Reading successful
+
+ ---------- Read Full Backup Finished ( Time: 00:02:06 ) ---------- 
+

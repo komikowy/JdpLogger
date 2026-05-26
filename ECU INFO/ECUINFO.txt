@@ -1,0 +1,6 @@
+ECU - producent 	Bosch
+ECU - nazwa 	EDC17_C41
+ECU - numer (upgrade) 	O_7DPB-000004FF-001
+Hardware - numer 	0281016846
+Software 	506060
+BMW NUMER - DDE 8 510 137
